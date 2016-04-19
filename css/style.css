@@ -1,0 +1,108 @@
+body {
+  background: url(http://recenthouse.co/wp-content/uploads/2016/02/white-wash-wood-background-with-white-wash-wood-background-10.jpg);
+  opacity: 50%;
+}
+
+
+#columns {
+  column-count: 2;
+  column-gap: 50px;
+  column-fill: auto;
+}
+
+.photo {
+  display: inline-block;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 25px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.photo img {
+  width: 500px;
+  height: 500px;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.photo p {
+  font: 18px;
+  color: gold;
+  text-align: center;
+
+}
+
+#columns:hover .photo:not(:hover) {
+  opacity: 0.4;
+}
+.profile {
+  margin:auto;
+  border: 7px solid white;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  padding: .5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+ul {
+  padding: 15px;
+  background: transparent;
+  text-align: center;
+
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 45px;
+
+}
+
+li > a {
+  text-transform: uppercase;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: skyblue;
+
+
+}
+
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+p {
+  margin: 15px;
+  line-height: 1.5;
+  font-size: 25px;
+  background-color: transparent;
+  padding: 10px 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
